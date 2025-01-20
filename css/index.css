@@ -1,0 +1,118 @@
+.head-icon {
+    width: 50px;
+    height: 50px;
+}
+
+.head-icon-mobile {
+    width: 50px;
+    height: 50px;
+}
+
+.search-input {
+    background-color: #F0F2F5;
+}
+
+.search-input:focus {
+    border-color: unset;
+    box-shadow: none;
+    background-color: #F0F2F5;
+}
+
+.home-page-icon-size {
+    margin-top: 8px;
+    font-size: 22px;
+}
+
+.pe-6 {
+    padding-right: 4rem;
+}
+
+.pe-7 {
+    padding-right: 5rem;
+}
+
+.icon-bg {
+    cursor: pointer;
+    height: 38px;
+    width: 38px;
+    background-color: #D6D9DD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-bg i {
+    font-size: 19px;
+}
+
+.ashraf {
+    cursor: pointer;
+    height: 38px;
+    width: 38px;
+}
+
+.header:hover {
+    border-bottom: #0866FF solid;
+    cursor: pointer;
+}
+
+.header:hover i {
+    color: #0866FF;
+}
+
+.left-icon {
+    margin-top: 4px;
+    margin-left: 1px;
+    font-size: 20px;
+}
+
+.left-icon:hover {
+    cursor: pointer;
+    border-color: unset;
+    background-color: #F2F4F7;
+}
+
+.names-icons {
+    font-family: sans-serif;
+    font-size: 17px;
+    color: rgb(1, 1, 1);
+    margin-left: 10px;
+
+}
+
+.divider {
+    border-top: 2px solid #E1E3E6;
+    margin: 20px 0;
+    width: 75%;
+
+}
+
+.adit {
+    color: #65686C;
+}
+
+.adit-a {
+    margin-left: 50px;
+}
+
+.bottom-left {
+    width: 40px;
+    height: 40px;
+    border: 2px solid rgb(250, 247, 247);
+    border-radius: 12px;
+    margin-top: 10px;
+}
+
+.left:hover {
+    cursor: pointer;
+    border-color: unset;
+    background-color: #F2F4F7;
+}
+
+.names-icons-b {
+    font-family: sans-serif;
+    font-size: 17px;
+    color: rgb(1, 1, 1);
+    margin-left: 10px;
+    text-align: center;
+}
