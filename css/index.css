@@ -118,7 +118,7 @@
 }
 
 .create-post {
-    width: 500px;
+
     background-color: white;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
@@ -176,11 +176,23 @@
 }
 
 .icon-h-3 {
-    color: #f7f5f5;
+    color: #f8f6f6;
+}
+
+.icon-h-4 {
+    color: #039EFC;
+}
+
+.icon-h-5 {
+    color: #FC537B;
+}
+
+.icon-h-6 {
+    color: #1F93F8;
 }
 
 .story-container {
-    width: 115px;
+    /* width: 115px; */
     height: 175px;
     margin-top: 10px;
     border-radius: 10px;
@@ -199,12 +211,33 @@
 
 .story-container:hover {
     filter: sepia(50%) brightness(0.8);
-    width: 120px;
-    height: 180px;
+    /* width: 120px;
+    height: 180px; */
+}
+
+.k {
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 18px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    border: solid 5px white;
+}
+
+.ss {
+    margin-top: 15px;
 }
 
 .story {
-    width: 115px;
+    /* width: 115px; */
     height: 175px;
     margin-top: 10px;
     background-image: url("/Images/ash.ico");
@@ -218,71 +251,150 @@
 
 .story:hover {
     filter: sepia(50%) brightness(0.8);
-    width: 120px;
-    height: 180px;
-}
-
-.k {
-
-    font-size: 35px;
-    background-color: #075CE5;
-    bottom: 1.3rem;
-    left: 2.1rem;
-    width: 55px;
-    border: solid 5px white;
-}
-
-.ss {
-    margin-top: 15px;
-}
-
-
-
-
-
-/* .create-story {
-    width: 115px;
-    height: 125px;
-    background-image: url("/Images/ash.ico");
-    margin-top: 5px;
-    background-color: white;
-} */
-.story-container-k {
-    width: 115px;
-    height: 175px;
-    margin-top: 10px;
-    border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-    overflow: hidden;
-    position: relative;
-    background-color: white;
-    text-align: center;
-}
-
-.story-container-k img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.story-container-k:hover {
-    filter: sepia(50%) brightness(0.8);
-    width: 120px;
-    height: 180px;
+    /* width: 120px; */
+    x height: 180px;
 }
 
 .kk {
 
     position: absolute;
-    /* لجعلها عائمة */
     top: 10px;
-    /* المسافة من الأعلى */
     left: 10px;
     box-shadow: 0 2px 5px rgba(255, 254, 254, 0.2);
-    width: 50px;
-    height: 50px;
+    width: 35px;
+    height: 35px;
 }
 
-.s {
+.Name-story {
+    position: absolute;
+    color: white;
+    white-space: nowrap;
+    margin-left: 2px;
+    bottom: 8px;
+    right: 16px;
+}
+
+.post {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 20px;
     margin-top: 15px;
+}
+
+.h-post {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Image-Name {
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.icon-post {
+    width: 50px;
+    /* x height: 50px; */
+    cursor: pointer;
+}
+
+.Name-post {
+    margin-top: 6px;
+    margin-left: 10px;
+    cursor: pointer;
+    display: grid
+}
+
+.icon-post-2 {
+    display: flex;
+    gap: 10px;
+
+}
+
+.icon-post-2:hover i {
+    display: block;
+    background-color: #D6D9DD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+}
+
+.post-phto {
+    width: 100%;
+    x height: 500px;
+    object-fit: cover;
+    margin-top: 5px;
+}
+
+.lik:hover {
+    background-color: #D6D9DD;
+}
+
+.ll {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.left-icons {
+    display: flex;
+    justify-content: flex-start;
+    cursor: pointer;
+}
+
+.right-icons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.space {}
+
+.space:hover {
+    cursor: pointer;
+    border-color: unset;
+    background-color: #F2F4F7;
+}
+
+.left-head {
+    color: #65686C;
+    margin-bottom: 10px;
+}
+
+.left-elements {
+    height: 100px;
+    border: 2px solid rgb(250, 247, 247);
+    border-radius: 12px;
+    margin-top: 10px;
+}
+
+.title-left-elements {
+
+    margin-top: 6px;
+    margin-left: 10px;
+    cursor: pointer;
+    display: inline-grid;
+
+}
+
+.contacts {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contacts-icon {
+    display: flex;
+    gap: 10px;
+}
+
+.bottom-left-items {
+    margin-bottom: 10px;
 }
